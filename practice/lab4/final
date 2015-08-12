@@ -1,0 +1,28 @@
+Script started on Tue 08 Feb 2011 11:58:20 AM EST
+bash-3.2$ make -k all
+rm -f testtank.o tank.o testtank
+make[1]: Entering directory `/clients/users/eademise11/cs256/lab4'
+g++ -Wall -ggdb -Wall -ggdb -c testtank.cpp
+g++  -Wall -ggdb -c tank.cpp
+g++ -Wall -ggdb tank.o testtank.o -o testtank
+make[1]: Leaving directory `/clients/users/eademise11/cs256/lab4'
+bash-3.2$ touch tank.cpp
+bash-3.2$ make -k
+g++  -Wall -ggdb -c tank.cpp
+g++ -Wall -ggdb tank.o testtank.o -o testtank
+bash-3.2$ make clean
+rm -f testtank.o tank.o
+bash-3.2$ ls
+final  Makefile  tank.cpp  tank.h  testtank  testtank.cpp
+bash-3.2$ make -k
+g++ -Wall -ggdb -Wall -ggdb -c testtank.cpp
+g++  -Wall -ggdb -c tank.cpp
+g++ -Wall -ggdb tank.o testtank.o -o testtank
+bash-3.2$ a2ps final
+[final (plain): 0 pages on 0 sheets]
+request id is eademise11@acl14+544
+[Total: 0 pages on 0 sheets] sent to the default printer
+bash-3.2$ exit
+exit
+
+Script done on Tue 08 Feb 2011 12:03:05 PM EST

@@ -1,0 +1,1 @@
+1) It showed me an error when I run the command. The compile failed because it needed the basic command files to run the program so it failed to work. It uses the wrong compiler -c so it failed. It did ot know if it was a .cpp file or not.
